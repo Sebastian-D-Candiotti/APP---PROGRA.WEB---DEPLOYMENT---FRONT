@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+html, body{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat","sans-serif"
+}
+
+:root{
+}
+
+.generalTable {
+    border: 1px solid  rgb(191, 191, 191) ;
+    border-radius: 0.5cap;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: calc(100%);
+    text-align: left;
+    margin-top: 10px;
+    table-layout: fixed;
+}
+
+.generalTable tr,th,td{
+    padding: 10px;
+}
+.generalTable th,td{
+    border-bottom: 1px solid rgb(191, 191, 191);
+}
+.generalTable tbody tr:hover {
+    background-color: rgb(229, 227, 227);
+}
